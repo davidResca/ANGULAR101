@@ -1,0 +1,46 @@
+.content{
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title{
+    padding: 3rem;
+    font-size: 1.8rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.cards-container{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    padding: 1rem;
+    
+    width: 110px;
+    height: 80px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    border-radius: 8px;
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    
+    backdrop-filter: blur(4px);
+
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.1);
+}

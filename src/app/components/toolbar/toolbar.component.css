@@ -1,0 +1,28 @@
+.toolbar-container{
+    z-index: 99;
+    height: 50px;
+    padding: .5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgb(255, 255, 255,.2);
+}
+
+.img-logo{
+    width: 120px;
+}
+
+.profile-menu{
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.img-toolbar{
+    width: 30px;
+}
+
+.share{
+    width: 15px;
+}
